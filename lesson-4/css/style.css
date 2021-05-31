@@ -22,13 +22,15 @@
    line-height: 47px;
  }
 
- .line {
-   width: 100px;
+ .title::after {
+   content: "";
+   display: block;
    height: 4px;
-   background-color: #F5BD41;
+   width: 100px;
    margin: 0 auto;
-   border: none;
+   margin-top: 20px;
    margin-bottom: 80px;
+   background: #f5bd41;
  }
 
  .icon {
