@@ -1,7 +1,10 @@
- * {
+@import url(./fonts.css);
+
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
  }
 
  .container {
@@ -10,10 +13,13 @@
    margin: 0 auto;
  }
 
- .title {
+  h2 {
    text-align: center;
    margin-bottom: 20px;
+   font-style: normal;
+   font-weight: 500;
    font-size: 40px;
+   line-height: 47px;
  }
 
  .line {
@@ -46,5 +52,9 @@
 
  .text {
    margin-top: 48px;
+   font-style: normal;
+   font-weight: normal;
    font-size: 24px;
+   line-height: 28px;
+   text-align: center;
  }
