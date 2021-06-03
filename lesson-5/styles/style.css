@@ -9,20 +9,22 @@
 .footer {
   width: 1440px;
   height: 630px;
-  margin: 0 auto;
+  margin: 0;
   background-color: #10367C
 }
 
 .container {
-    display: flex;
-    padding: 120px 100px;
-    max-width: 1440px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 100px 64px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.item {
+.item-1 {
   margin: 0 auto;
   padding: 0;
+  justify-content: start;
 }
 
 .footer_header_text {
@@ -32,17 +34,15 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  text-align: left;
 }
 
-.footer_link {
+li {
   margin-bottom: 24px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 23px;
-  text-align: left;
 }
 
 .footer_list {
@@ -57,8 +57,6 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  text-align: center;
-  justify-content: left;
+  font-size: 13px;
   color: #FFFFFF;
 }
