@@ -9,6 +9,60 @@ font-family: 'Roboto', sans-serif;
 font-weight: normal;
 }
 
+.container-body {
+  width: 1264px;
+  padding: 120px 16px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background: #f5bd41;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.text {
+  margin-top: 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
 .footer {
 margin: 0;
 background-color: #10367C
